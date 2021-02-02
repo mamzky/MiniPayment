@@ -5,7 +5,7 @@ import { Images } from '../Themes'
 // Styles
 import styles from './Styles/LaunchScreenStyles'
 
-export default class LaunchScreen extends Component {
+class LoginScreen extends Component {
   render() {
     return (
       <View style={{ backgroundColor: '#f5f5f5', flex: 1, justifyContent: 'center' }}>
@@ -91,3 +91,4 @@ export default class LaunchScreen extends Component {
     )
   }
 }
+export default LoginScreen
